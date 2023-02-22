@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="taxiunternehmen-steinkirchen_p507293">
+    <serverData>
+      <paths name="taxiunternehmen-steinkirchen_p507293">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/html" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/html/cgi-bin" />
+            <excludedPath path="/html/stats" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cgi-bin" />
+            <excludedPath local="true" path="$PROJECT_DIR$/stats" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

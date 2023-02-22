@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e89ef2b0-2640-4337-8174-f0def77a4d11" name="taxiunternehmen-steinkirchen_p507293" url="http://p507293.mittwaldserver.info">
+        <fileTransfer host="p507293.mittwaldserver.info" port="21">
+          <advancedOptions>
+            <advancedOptions compatibilityMode="true" dataProtectionLevel="Private" forceListCommand="true" passiveMode="true" shareSSLContext="true" showHiddenFiles="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

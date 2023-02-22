@@ -1,0 +1,628 @@
+::selection {
+    color: #FFEE00; background-color: #000;
+}
+
+html, body {
+    color: #000;
+    font-family: alber-new-web, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-display: block;
+}
+
+main {
+    display: block /* Für ie 10 und 11 */
+}
+
+.background-yellow {
+    background-color: #FFEE00;
+}
+
+h1, h2, h3, span {
+    font-weight: 700;
+    text-align: center;
+}
+
+h1, h2 {
+    font-size: 1.9rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+p, td, th, li {
+    font-size: 0.9rem;
+    padding: 7px 0px;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: #000;
+    font-size: 0.9rem;
+    transition: 1s;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #888888;
+}
+
+span, .button a, button, .btn, span a {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.button a{
+    text-align: center;
+    transition: 1s;
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 5px 40px 8px 40px;
+}
+
+.button {
+    background-color: #FFEE00;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px;
+    transition: 1s;
+    display: inline-block;
+}
+
+.button a:hover {
+    color: #FFEE00;
+}
+
+.button:hover {
+    background-color: #000;
+}
+
+.button-einzeln {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 0;
+    width: 80%;
+    border-top: 2px solid #FFEE00;
+}
+
+.background-icon-1 {
+    background-image: url(../img/icon-a-b.svg);
+    background-repeat: no-repeat;
+    background-position: 80% center;
+    background-size: 50%;
+    background-attachment: fixed;
+}
+
+.background-icon-2 {
+    background-image: url(../img/icon-taxi-gelb.svg);
+    background-repeat: no-repeat;
+    background-position: 20% center;
+    background-size: 50%;
+    background-attachment: fixed;
+}
+
+.download {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.download a {
+    color: #888888;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.download a:hover {
+    color: #000;
+}
+
+.download-icon {
+    width: 60px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.download-icon img {
+    width: 100%;
+}
+
+/* Tabelle */
+
+table {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+tr:first-child {
+    border-top: 1px solid #888888;
+}
+
+td:first-child, th:first-child {
+    width: 80%;
+}
+
+td:last-child, th:last-child {
+    text-align: right;
+    width: 90%;
+}
+
+td, th {
+    border-bottom: 1px solid #888888;
+    padding: 10px 0px;
+}
+
+th {
+    border-top: 1px solid #fff;
+    padding-top: 0px;
+}
+
+/*Header*/
+
+header {
+    padding-top: 20px;
+}
+
+header .row {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.impressum-datenschutz {
+    margin-bottom: 10px;
+}
+
+.logo-container {
+    width: 350px;
+}
+
+.logo-container img {
+    width: 100%;
+}
+
+.telefon-nr {
+    display: table;
+    margin: 10px 0px;
+}
+
+.telefon-nr-icon {
+    width: 40px;
+}
+
+.telefon-nr-icon img{
+    width: 100%;
+}
+
+.telefon-nr-icon, .telefon-nr p {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+}
+
+/* Icon Boxen */
+
+.icon-box-background {
+    background-image: url(../img/map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px 0px 20px 0px;
+}
+
+.icon-box {
+    display: table;
+    margin: auto;
+    width: 100%;
+}
+
+.icon-box-inhalt {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.icon-box-inhalt img {
+    margin: 15px 0px 10px 0px;
+    width: 80px;
+}
+
+.icon-box-inhalt p {
+    margin-bottom: 0px;
+}
+
+/* Einleitungstext */
+
+.einleitungstext {
+    padding: 40px 0px 30px 0px;
+}
+
+.einleitungstext-imp {
+    padding: 40px 0px 0px 0px;
+}
+
+.einleitungstext .telefon-nr {
+    margin: auto;
+    padding: 0px;
+}
+
+/* Akkordion */
+
+.img-akkordion {
+    margin-bottom: 20px;
+}
+
+.akkordion img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.akkordion p {
+    text-align: left;
+}
+
+.card {
+    background-color: #fff;
+    border: 0px;
+    border-radius: 0rem;
+}
+
+.card-header {
+    margin-bottom: 10px;
+    background-color: #FFEE00;
+    border-bottom: 0px;
+    padding: 10px;
+}
+
+.card-header:first-child {
+    border-radius: 0rem;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.panel-title > button {
+    background-image: url(../img/pfeil-oben.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+    width: 100%;
+    padding-right: 5px;
+    text-align: left;
+}
+
+.panel-title > button.collapsed {
+    background-image: url(../img/pfeil-unten.svg);
+}
+
+.panel-title > button:hover, 
+.panel-title > button:active, 
+.panel-title > button:focus  {
+    text-decoration:none;
+}
+
+.btn-link {
+    color: #000;
+    font-weight: 700;
+}
+
+.btn-link:hover {
+    color: #888888;
+    text-decoration: none;
+    background-color: #FFEE00;
+}
+
+.btn {
+    padding: 0px
+}
+
+/* Preise */
+
+.preise {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+/* Krankenfahrten */
+
+.krankenfahrten, .grossraumtaxi {
+    min-height: 300px;
+}
+
+.krankenfahrten-text, .grossraumtaxi-text {
+    padding: 20px 20px;
+}
+
+.krankenfahrten-text p, .grossraumtaxi-text p {
+    margin-bottom: 0px;
+}
+
+.krankenfahrten-img {
+    background-image: url(../img/taxi-erding-krankenfahrten-content.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+
+.grossraumtaxi-img {
+    background-image: url(../img/grossraumtaxi-erding.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+
+.grossraumtaxi {
+    flex-wrap: wrap-reverse;
+}
+
+/* 3 Spalter */
+
+.drei-spalter {
+    background-color: #EDEDED;
+    padding: 40px 0px;
+}
+
+.drei-spalter h3 {
+    margin-top: 20px;
+}
+
+/* Unterseite */
+
+.headerbild {
+    margin-bottom: 20px;
+}
+
+.headerbild img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.text-align-left p, .text-align-left h2, .text-align-left h3 {
+    text-align: left !important;
+}
+
+/* Footer */
+
+footer {
+    padding: 30px 0px;
+    background-color: #FFEE00;
+    text-align: center;
+}
+
+footer .logo-container {
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+/* Back to top */
+
+.back-to-top {
+    background-color: #fff;
+    background-image: url(../img/pfeil-oben.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    border-radius: 100px;
+    border: 2px solid #000;
+    position: fixed;
+    bottom: 12px;
+    right: 12px;
+    padding: 1.3rem;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    
+    .background-icon-1 {
+    background-size: 30%;
+}
+
+    .background-icon-2 {
+    background-size: 30%;
+}
+    
+    /* Tabelle */
+    
+    table {
+        margin-bottom: 50px;
+    }
+    
+    td, th {
+    padding: 20px 0px;
+}
+    
+    th {
+    padding-top: 0px;
+    }
+    
+    /* Header */
+    
+    header {
+    padding-bottom: 20px;
+}
+    
+    header .telefon-nr-container {
+    margin-left: 10px;
+}
+    
+    /* Krankenfahrten */
+    
+    .krankenfahrten-text {
+    padding: 40px 20px;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    
+    h1, h2 {
+    font-size: 2rem;
+}
+
+    h3 {
+    font-size: 1.8rem;
+}
+
+    p, td, th, li {
+    font-size: 1.1rem;
+}
+
+    a {
+    font-size: 1.1rem;
+}
+    
+    span, button a, button, .btn, span a {
+    font-size: 1.5rem;
+}
+    
+    .download-icon {
+    width: 90px;
+}
+    
+    .background-icon-1 {
+    background-size: 20%;
+}
+
+    .background-icon-2 {
+    background-size: 20%;
+}
+    
+    /* Header */
+       
+    header .row{
+    justify-content: space-between;
+}
+    
+    .logo-container {
+    width: 400px;
+        padding-top: 10px;
+}
+    
+    .telefon-nr-icon {
+    width: 60px;
+    padding: 5px;
+}
+        
+    /* Icon Boxen */
+    
+    .icon-box {
+    height: 300px;
+}
+ 
+    /* Krankenfahrten */
+    .krankenfahrten h2, .krankenfahrten p {
+    text-align: right;
+    }
+
+    .grossraumtaxi {
+        flex-wrap: wrap;
+    }
+
+    .grossraumtaxi-text p, .grossraumtaxi-text h2 {
+        text-align: left;
+    }
+    
+    /* Back to top */
+    
+    .back-to-top {
+    padding: 1.6rem;
+}
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    
+    h1, h2 {
+    font-size: 2.3rem;
+}
+
+    h3 {
+    font-size: 2rem;
+}
+
+    p, td, th, li {
+    font-size: 1.2rem;
+}
+
+    a {
+    font-size: 1.2rem;
+}
+    
+    span, .button a, button, .btn, span a {
+    font-size: 1.8rem;
+}
+    
+    
+    section {
+        margin: 50px 0px 0px 0px;
+}
+    
+    .ohne-margin-top {
+        margin-top: 0px;
+        margin-bottom: 0px;
+}
+    
+    /* Header */
+     
+    .impressum-datenschutz {
+    margin-bottom: 0px;
+}
+    
+    .impressum-datenschutz a {
+    right: 15px;
+    position: absolute;
+}
+
+    header .telefon-nr-container {
+    margin-top: 45px;
+}
+    
+    .telefon-nr {
+    margin: 0px 0px;
+}
+
+    .logo-container {
+        width: 500px;
+    }
+    
+    /* Icon Boxen */
+    
+    .icon-box {
+    height: 400px;
+}
+    
+        .icon-box-inhalt img {
+    margin: 20px;
+    width: 130px;
+}
+    
+    /* Einleitungstext */
+    
+    .einleitungstext, .einleitungstext-imp {
+    padding: 50px 0px 0px 0px;
+}   
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+}
