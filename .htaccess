@@ -2,7 +2,7 @@ RewriteEngine On
 RewriteBase /
 
 RewriteCond %{HTTPS} !=On [NC,OR]
-RewriteCond %{HTTP_HOST} !=www.taxiunternehmen-erding.de [NC]
-RewriteRule ^(.*)$ https://www.taxiunternehmen-erding.de/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} !=www.taxiunternehmen-steinkirchen.de [NC]
+RewriteRule ^(.*)$ https://www.taxiunternehmen-steinkirchen.de/$1 [R=301,L]
 
 redirect 301 /preise-taxi-erding.html /preise.html
